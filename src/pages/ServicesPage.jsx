@@ -57,7 +57,7 @@ const ServicesPage = () => {
           subtitle="Услуги, предоставляемые данной компанией"
         />
         <input
-          placeholder="Поиск"
+          placeholder="Поиск по наименованию"
           className="services__search"
           type="search"
           onChange={(e) => handleSearch(e)}
