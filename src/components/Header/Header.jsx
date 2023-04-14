@@ -2,12 +2,12 @@ import Buttons from "../Buttons/Buttons";
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 
-const Header = () => {
+const Header = ({setActive}) => {
   return (
     <header className="header">
       <Logo />
       <Nav />
-      <Buttons />
+      <Buttons setActive={setActive} />
     </header>
   );
 };

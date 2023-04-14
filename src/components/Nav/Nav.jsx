@@ -13,9 +13,6 @@ const Nav = () => {
         <li className="menu__link">
           <NavLink to={"/requests"}>Заявки</NavLink>
         </li>
-        <li className="menu__link">
-          <NavLink to={"/cart"}>Корзина</NavLink>
-        </li>
       </ul>
     </nav>
   );

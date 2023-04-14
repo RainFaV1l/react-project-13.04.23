@@ -1,8 +1,9 @@
-const Buttons = () => {
+const Buttons = ({setActive}) => {
   return (
     <div className="buttons">
-      <button className="button">Войти</button>
-      <button className="button">Регистрация</button>
+      <button className="button" onClick={() => setActive(true)}>
+        Корзина
+      </button>
     </div>
   );
 };
