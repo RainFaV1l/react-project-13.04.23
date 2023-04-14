@@ -293,3 +293,9 @@ input {
   flex-direction: column;
   gap: 15px;
 }
+
+.item__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
